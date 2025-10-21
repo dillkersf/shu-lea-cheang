@@ -1,7 +1,26 @@
 body{
-    background-color: rgb(42, 42, 42);
+    background: linear-gradient(45deg, 
+        #424242 0%,    
+        #232323 33%,  
+        #5b5b5b 66%,    
+        #810202 100%    
+    );
+    background-size: 400% 400%;
+    animation: gradientShift 8s ease-in-out infinite;
     color: white; width: 40%; margin: auto;
 text-align: middle;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .back{
@@ -95,3 +114,46 @@ text-align: middle;
     src: url(fonts/RushDriver-Italic.otf);
 }
 h1 { font-family: "test", Arial, sans-serif; }
+
+.bowlr1{
+    position: absolute;
+    top: 18%;
+    left: 89.4%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.bowll1{
+    position: absolute;
+    top: 17%;
+    left: 10.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+
+.bowlr2{
+    position: absolute;
+   top: 177px;
+    left: 79.2%;
+}
+
+.bowll2{
+    position: absolute;
+    top: 177px;
+    left: .2%;
+}
+
+.gargif2{
+    position: absolute;
+    top: 495px;
+    left: .2%;
+}
+
+.topgar{
+    position: fixed;
+    top:0px;
+    left: 100%;
+}
+
+
