@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(42, 42, 42);
+    color: white; width: 40%; margin: auto;
+text-align: middle;
+}
+
+.back{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bran{
+    position: absolute;
+    top: 18%;
+    left: 89.4%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.gar{
+    position: absolute;
+    top: 18%;
+    left: 10.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.crazy{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    display: none;
+    z-index: 3;
+    pointer-events: none;
+}
+
+
+.bowl{
+    position: absolute;
+   top: 177px;
+    left: 79.2%;
+}
+
+.l2{
+    position: absolute;
+    top: 177px;
+    left: .2%;
+}
+
+.port{
+    position: absolute;
+    top: 278px;
+    left: 21%;
+}
+
+.garr1{
+    position: absolute;
+    top: 18%;
+    left: 89.4%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.garl1{
+    position: absolute;
+    top: 18%;
+    left: 10.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+
+.garr2{
+    position: absolute;
+   top: 177px;
+    left: 79.2%;
+}
+
+.garl2{
+    position: absolute;
+    top: 177px;
+    left: .2%;
+}
+
+.titlefont{
+    position: absolute;
+    top: 230px;
+    left: 25%;
+}
+
+
+@font-face {
+    font-family: "test";
+    src: url(fonts/RushDriver-Italic.otf);
+}
+h1 { font-family: "test", Arial, sans-serif; }
