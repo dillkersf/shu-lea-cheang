@@ -11,6 +11,18 @@ body{
 text-align: middle;
 }
 
+@media only screen and (max-width: 900px) {
+	body { scale: 0.6; }
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+	body { scale: 0.35; }
+   
+}
+
+
 @keyframes gradientShift {
     0% {
         background-position: 0% 50%;
@@ -156,4 +168,10 @@ h1 { font-family: "test", Arial, sans-serif; }
     left: 100%;
 }
 
+.name{
+    position: fixed;
+    bottom: 3;
+    right: 15;
+    font-size: 15px;
+}
 
